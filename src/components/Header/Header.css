@@ -17,3 +17,49 @@
 .header__account {
     flex: 0.1;
 }
+
+.header__controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.control__track {
+    margin-bottom: 20px;
+}
+
+.control__track > p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(93, 182, 212);
+}
+
+.control__track >span {
+    color: #cccc;
+    font-size: 14px;
+}
+
+.control__buttons {
+    display: flex;
+    flex: 0.4;
+    max-width: auto 300px;
+    padding:0 28%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button__green {
+    color: #1ed15e;
+    transform: scale(1.5);
+  }
+
+.button__icon {
+    transform: scale(1.5);
+}
+
+.button__icon:hover,
+.button__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.7) !important;
+}

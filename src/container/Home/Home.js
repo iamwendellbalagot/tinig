@@ -37,6 +37,7 @@ const Home = ({spotify}) => {
                     discover_weekly: pl
                 });
             });
+            // console.log(discover_weekly?.tracks.items);
         }
     
     }, [user, dispatch]);
@@ -47,7 +48,7 @@ const Home = ({spotify}) => {
                 <Logo />
                 <Sidebar />
             </div>
-            {console.log(discover_weekly?.tracks.items)}
+           
         
             <div className = 'home__body'>
                 <div className = 'body__header'>
