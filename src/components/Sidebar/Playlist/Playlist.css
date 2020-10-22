@@ -5,3 +5,7 @@ li {
     text-align: center;
     font-size: 15px;
 }
+
+p {
+    cursor: pointer;
+}
