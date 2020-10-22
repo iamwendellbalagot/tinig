@@ -1,0 +1,37 @@
+.sidebar > p {
+    color: #ccc;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.sidebar > hr {
+    border: 1px solid gray;
+    opacity: 0.6;
+    width: 200px;
+}
+
+.sidebar > ul {
+    padding: 0;
+    margin-left: 10px;
+}
+
+.sidebar__search {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search__button {
+    margin-left: 5px;
+}
+
+.search__input {
+    border-width:0px;
+    border:0;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(33, 32, 32);
+    border-radius: 10px;
+    color: #ccc;
+}
